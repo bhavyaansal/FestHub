@@ -23,14 +23,11 @@ html,
 body {
     height: 100%;
     width: 100%;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
     color: #dbdbdbf6;
     margin: 0;
     background: linear-gradient(135deg, #0F0C29, #302B63, #24243E);
     position: relative;
     overflow-x: hidden;
-    /* padding: 7vh 8vw; */
 }
 
 .starfield {
@@ -63,29 +60,25 @@ body {
 }
 
 #nav {
-    height: 110px;
+    height: 140px;
     width: 100%;
     position: fixed;
     z-index: 99;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 20px 50px;
-}
-
-#nav svg{
-    width:90px;
+    padding: 25px;
 }
 
 #nav #nav-pt2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 #links {
-    padding: 10px 0;
+    padding: 12px;
 }
 
 #nav-pt2 #links a {
@@ -93,22 +86,19 @@ body {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
-    font-size: 23px;
+    font-size: 18px;
     margin: 0px 20px;
-    letter-spacing: 1px;
 }
 
 #icons {
-    margin-right: 15px;
-    padding: 8px 15px;
+    padding: 15px;
     border-radius: 50px;
-    /* background-color: linear-gradient(135deg, #0F0C29, #302B63, #24243E); */
 }
 
 #nav-pt2 #icons i {
-    font-size: 25px;
+    font-size: 48px;
     font-weight: 100;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 *::selection {
@@ -117,8 +107,8 @@ body {
 }
 
 #cursor {
-    height: 40px;
-    width: 40px;
+    height: 90px;
+    width: 90px;
     background-color: rgba(245, 245, 220, 0.899);
     border-radius: 50%;
     position: fixed;
@@ -130,23 +120,24 @@ body {
     min-height: 100vh;
     position: relative;
     width: 100%;
-    padding: 5vh 8vw;
+    padding: 0 2vw;
+     padding-top: 20vh;
 }
 
 .hero h1 {
-    font-size: 6vw;
+    font-size: 11vw;
     text-transform: uppercase;
     font-family: futura;
-    line-height: 1.1em;
-    letter-spacing: -1px;
-    margin-bottom: 14px;
+    line-height: 9.6vw;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
     color: #dbdbdbf6;
 }
 
 #video-container {
-    height: 75vh;
+    height: 100vh;
     width: 100%;
-    margin-top: 2vh;
+    margin-top: 1vw;
     position: relative;
 }
 
@@ -158,11 +149,10 @@ body {
 }
 
 #video-container #play {
-    padding: 1.5vw 1.2vw;
+    padding: 3vw 2.2vw;
     background-color: #302B63;
     color: #dbdbdbf6;
-    font-size: 1vw;
-    letter-spacing: 1px;
+    font-size: 1.3vw;
     font-family: futura;
     position: fixed;
     border-radius: 50%;
@@ -172,8 +162,8 @@ body {
 }
 
 button {
-    height: 350px;
-    width: 1000px;
+    height: 240px;
+    width: 750px;
     margin-top: 30px;
     top: 50%;
     left: 50%;
@@ -186,7 +176,7 @@ button {
     border: 0.25em solid var(--glow-color);
     padding: 1em 3em;
     color: var(--glow-color);
-    font-size: 60px;
+    font-size: 44px;
     font-weight: bold;
     cursor: pointer;
     background-color: var(--btn-color);
@@ -239,32 +229,29 @@ button:active {
     position: relative;
     display: flex;
     align-items: center;
-    padding: 6vh 5vw;
+    padding: 3vw 1vw;
     justify-content: space-between;
 }
 
 h2 {
-    font-size: 70px;
+    font-size: 130px;
     text-align: center;
     padding-top: 4vh;
 }
 
 #highlight .elem .dets h3 {
-    font-size: 26px;
+    font-size: 58px;
     color: #ebebebd9;
-    line-height: 1.3em;
 }
 
 #highlight .elem .dets p {
-    font-size: 18px;
+    font-size: 40px;
     color: #f1f1f1d2;
-    line-height: 1.3em;
 }
 
 #highlight .elem {
     height: 100vh;
-    width: 30%;
-    margin: 10px 0;
+    width: 31%;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -281,10 +268,9 @@ h2 {
 }
 
 #highlight .elem .dets {
-    height: 110px;
-    border-radius: 3%;
+    height: 180px;
+    border-radius: 60px;
     width: 57%;
-    padding: 15px 10px;
     position: absolute;
     background-color: #413b88b3;
     overflow: hidden;
@@ -293,7 +279,7 @@ h2 {
 }
 
 #highlight .elem .dets:hover {
-    height: 200px;
+    height: 400px;
     padding-top: .35%;
     text-align: center;
     z-index: 5;
@@ -310,18 +296,18 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 40px;
+    gap: 60px;
     flex-wrap: wrap;
-    padding: 40px 80px;
+    padding: 20px;
 }
 
 #photoctr {
-    width: 400px;
-    height: 400px;
+    width: 2000px;
+    height: 2000px;
     border-radius: 50%;
     overflow: hidden;
     flex-shrink: 0;
-    border: 5px solid #333;
+    border: 10px solid #333;
 }
 
 #photoctr img {
@@ -332,26 +318,26 @@ h2 {
 
 #info {
     flex: 1;
-    max-width: 600px;
+    max-width: auto;
 }
 
 #info h2 {
     margin: 0;
     color: #dbdbdbf6;
-    font-size: 3.5rem;
+    font-size: 15rem;
 }
 
-#about p {  
+#about p {
+    margin-top: 38px;
     color: #dbdbdbf6;
-    line-height: 1.8;
-    font-size: 18px;
-    margin-top: 20px;
+    line-height: 2.5;
+    font-size: 90px;
 }
 
 #footerbar {
-    font-size: 24px;
+    font-size: 90px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 [data-scroll-container] {
