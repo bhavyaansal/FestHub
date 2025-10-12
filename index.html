@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FESTHUB.</title>
+  <link rel="shortcut icon" href="https://i.pinimg.com/1200x/50/d4/ea/50d4ea516bec5eba9b4a6205207d144a.jpg"
+    type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="starfield"></div>
+  <div id="main" data-scroll-container>
+
+    <!-- Navbar -->
+    <div id="nav">
+      <div id="nav-pt1">
+        <svg width="500" height="250" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+              <feGaussianBlur stdDeviation="6" result="coloredBlur" />
+              <feMerge>
+                <feMergeNode in="coloredBlur" />
+                <feMergeNode in="SourceGraphic" />
+              </feMerge>
+            </filter>
+          </defs>
+
+          <text x="50%" y="40%" text-anchor="middle" fill="white" font-family="Futura" font-size="70"
+            filter="url(#glow)">
+            FEST
+          </text>
+
+          <text x="50%" y="80%" text-anchor="middle" fill="white" font-family="Futura" font-size="70"
+            filter="url(#glow)">
+            HUB.
+          </text>
+        </svg>
+      </div>
+      <div id="nav-pt2">
+        <div id="links">
+          <a href="index.html">Home</a>
+          <a href="">Events</a>
+          <a href="">Schedule</a>
+          <a href="">About Us</a>
+        </div>
+        <div id="icons">
+          <i class="ri-menu-4-fill"></i>
+          <i class="ri-registered-line"></i>
+          <i class="ri-calendar-schedule-line"></i>
+          <i class="ri-multi-image-line"></i>
+        </div>
+      </div>
+    </div>
+
+    <div id="cursor"></div>
+    <div id="page1">
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <div id="intro" data-scroll-section>
+          <h1>connect.</h1>
+          <h1 style="padding-left: 14%;">compete.</h1>
+          <h1 style="padding-left: 29%">celebrate.</h1>
+          <div id="video-container">
+            <div id="play">PLAY</div>
+            <video autoplay loop muted src="nitfest.mp4"></video>
+          </div>
+        </div>
+      </section>
+
+      <!-- Highlights Section-->
+      <button><a href="register.html"
+          class="bg-white text-blue-600 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-200 transition">Register
+          Now</a></button>
+      <h2>Why Join Our Fest?</h2>
+      <div id="highlight">
+
+        <div id="elem1" class="elem">
+          <img data-scroll data-scroll-speed="1"
+            src="https://i.pinimg.com/736x/84/38/a1/8438a16df26a533b2095f9c0bd817d9c.jpg" alt="">
+          <div data-scroll data-scroll-speed="-2" class="dets">
+            <h3>20+ Events</h3>
+            <p>From high-voltage Tech competitions pushing innovation, to dazzling Cultural events celebrating
+              creativity, and adrenaline-filled Sports challenges revealing champions — this fest is a celebration of
+              passion, energy, and unforgettable experiences.</p>
+          </div>
+        </div>
+        <div id="elem2" class="elem">
+          <img data-scroll data-scroll-speed="1"
+            src="https://i.pinimg.com/736x/48/1c/10/481c10946f16c3c4ed5daae15cb72329.jpg" alt="">
+          <div data-scroll data-scroll-speed="-2" class="dets">
+            <h3>3 Days</h3>
+            <p>Three unforgettable days packed with excitement, endless learning opportunities, inspiring moments, and
+              memories that will last a lifetime. A celebration where every second is filled with energy, creativity,
+              and pure fest magic.</p>
+          </div>
+        </div>
+        <div id="elem3" class="elem">
+          <img data-scroll data-scroll-speed="1"
+            src="https://i.pinimg.com/736x/fb/79/c0/fb79c0e612a42d7e865a152973ef5b4a.jpg" alt="">
+          <div data-scroll data-scroll-speed="-2" class="dets">
+            <h3>1000+ Participants</h3>
+            <p>Join a vibrant crowd of 1000+ passionate and enthusiastic students from across campuses — innovators,
+              creators, performers, and dreamers coming together to celebrate technology, culture, and sports like never
+              before.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="page3">
+      <!--About Section -->
+      <div id="about">
+        <div id="photoctr">
+          <img src="festabt2.jpg" alt="">
+        </div>
+        <div id="info">
+          <h2>About Our Fest</h2>
+          <p>
+            FestHub is a modern and responsive web platform built to make college fest experiences more organized and
+            engaging. It eliminates confusion by displaying all event information—categories, timings, and registration
+            links—clearly and accessibly.
+            <br>
+            With its simple interface and integrated registration forms, students can register effortlessly, stay
+            updated
+            on schedules, and even check results after the fest. EventEase aims to create a smooth digital experience
+            for
+            both organizers and participants.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footerbar">
+      <p>&copy; 2025 FestHub. All Rights Reserved.</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+    integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+    integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
