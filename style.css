@@ -351,6 +351,10 @@ h2 {
 }
 
 @media (max-width:600px) {
+    *{
+        font-family: 'futura';
+    }
+    
     #nav {
         height: 20px;
         width: 100%;
