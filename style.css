@@ -67,7 +67,12 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 25px;
+}
+
+#nav svg {
+    height: 140px;
+    width: 100px;
+    margin-top: 0%;
 }
 
 #nav #nav-pt2 {
@@ -86,19 +91,19 @@ body {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 12px;
     margin: 0px 20px;
 }
 
 #icons {
-    padding: 15px;
+    padding: 6px;
     border-radius: 50px;
 }
 
 #nav-pt2 #icons i {
-    font-size: 48px;
+    font-size: 14px;
     font-weight: 100;
-    margin-right: 50px;
+    margin: 0 10px;
 }
 
 *::selection {
@@ -107,9 +112,9 @@ body {
 }
 
 #cursor {
-    height: 90px;
-    width: 90px;
-    background-color: rgba(245, 245, 220, 0.899);
+    height: 50px;
+    width: 50px;
+    background-color: rgba(195, 197, 232, 0.708);
     border-radius: 50%;
     position: fixed;
     transform: translate(-50%, -50%) scale(0);
@@ -120,8 +125,8 @@ body {
     min-height: 100vh;
     position: relative;
     width: 100%;
-    padding: 0 2vw;
-     padding-top: 20vh;
+    padding: 0 1vw;
+    padding-top: 15vh;
 }
 
 .hero h1 {
@@ -145,26 +150,26 @@ body {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    z-index: 3;
+    z-index: 1;
 }
 
 #video-container #play {
     padding: 3vw 2.2vw;
-    background-color: #302B63;
+    background-color: #423d76e9;
     color: #dbdbdbf6;
     font-size: 1.3vw;
     font-family: futura;
     position: fixed;
+    z-index: 2;
     border-radius: 50%;
     opacity: 0;
     scale: 0;
-    z-index: 4;
 }
 
 button {
-    height: 240px;
-    width: 750px;
-    margin-top: 30px;
+    height: 100px;
+    width: 200px;
+    margin-top: 20px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -176,7 +181,7 @@ button {
     border: 0.25em solid var(--glow-color);
     padding: 1em 3em;
     color: var(--glow-color);
-    font-size: 44px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     background-color: var(--btn-color);
@@ -234,20 +239,11 @@ button:active {
 }
 
 h2 {
-    font-size: 130px;
+    font-size: 30px;
     text-align: center;
-    padding-top: 4vh;
+    padding-top: 2vh;
 }
 
-#highlight .elem .dets h3 {
-    font-size: 58px;
-    color: #ebebebd9;
-}
-
-#highlight .elem .dets p {
-    font-size: 40px;
-    color: #f1f1f1d2;
-}
 
 #highlight .elem {
     height: 100vh;
@@ -268,9 +264,9 @@ h2 {
 }
 
 #highlight .elem .dets {
-    height: 180px;
-    border-radius: 60px;
+    height: 100px;
     width: 57%;
+    border-radius: 30px;
     position: absolute;
     background-color: #413b88b3;
     overflow: hidden;
@@ -279,10 +275,20 @@ h2 {
 }
 
 #highlight .elem .dets:hover {
-    height: 400px;
+    height: 200px;
     padding-top: .35%;
     text-align: center;
     z-index: 5;
+}
+
+#highlight .elem .dets h3 {
+    font-size: 18px;
+    color: #ebebebd9;
+}
+
+#highlight .elem .dets p {
+    font-size: 14px;
+    color: #f1f1f1d2;
 }
 
 #page3 {
@@ -302,8 +308,8 @@ h2 {
 }
 
 #photoctr {
-    width: 2000px;
-    height: 2000px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     overflow: hidden;
     flex-shrink: 0;
@@ -324,18 +330,18 @@ h2 {
 #info h2 {
     margin: 0;
     color: #dbdbdbf6;
-    font-size: 15rem;
+    font-size: 33px;
 }
 
 #about p {
-    margin-top: 38px;
+    margin-top: 25px;
     color: #dbdbdbf6;
     line-height: 2.5;
-    font-size: 90px;
+    font-size: 21px;
 }
 
 #footerbar {
-    font-size: 90px;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 100px;
 }
@@ -454,7 +460,7 @@ h2 {
         border: 0.25em solid var(--glow-color);
         padding: 1em 3em;
         color: var(--glow-color);
-        font-size: 15px;
+        font-size: 13px;
         font-weight: bold;
         cursor: pointer;
         background-color: var(--btn-color);
@@ -480,7 +486,7 @@ h2 {
     }
 
     #highlight .elem {
-        height: 100vh;
+        height: 70vh;
         width: 100%;
         overflow: hidden;
         margin-bottom: 3vw;
@@ -488,9 +494,9 @@ h2 {
 
     #highlight .elem .dets {
         height: 65px;
-        border-radius: 50px;
         width: 67%;
-        padding-bottom: 15px;
+        border-radius: 20px;
+        /* padding-bottom: px; */
         position: absolute;
         background-color: #37467c9a;
         overflow: hidden;
@@ -498,18 +504,18 @@ h2 {
     }
 
     #highlight .elem .dets:hover {
-        height: 120px;
+        height: 100px;
         padding-top: 1%;
         text-align: center;
     }
 
     #highlight .elem .dets h3 {
-        font-size: 18px;
+        font-size: 14px;
         color: #cda4ffe4;
     }
 
     #highlight .elem .dets p {
-        font-size: 10px;
+        font-size: 8px;
         color: #c8a2f6ef;
     }
 
@@ -532,10 +538,10 @@ h2 {
     }
 
     #about p {
-        margin-top: 34px;
+        margin-top: 30px;
         color: #dbdbdb;
         line-height: 2.5;
-        font-size: 17px;
+        font-size: 15px;
     }
 
     #footerbar {
