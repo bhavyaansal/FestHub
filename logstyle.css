@@ -78,10 +78,10 @@ h2 {
 }
 
 .input-check:checked~h2 {
-    color: #00f7ff;
+    color: #425ead;
     text-shadow:
-        0 0 15px #00f7ff,
-        0 0 30px #00f7ff;
+        0 0 15px #425ead,
+        0 0 30px #425ead;
 }
 
 .input-box {
@@ -101,8 +101,8 @@ h2 {
 }
 
 .input-check:checked~.input-box .input-line {
-    background: #00f7ff;
-    box-shadow: 0 0 10px #00f7ff;
+    background: #425ead;
+    box-shadow: 0 0 10px #425ead;
 }
 
 .input-box label {
@@ -122,8 +122,8 @@ h2 {
 }
 
 .input-check:checked~.input-box label {
-    color: #00f7ff;
-    text-shadow: 0 0 10px #00f7ff;
+    color: #425ead;
+    text-shadow: 0 0 10px #425ead;
 }
 
 .input-box input {
@@ -139,8 +139,8 @@ h2 {
 }
 
 .input-check:checked~.input-box input {
-    color: #00f7ff;
-    text-shadow: 0 0 5px #00f7ff;
+    color: #425ead;
+    text-shadow: 0 0 5px #425ead;
 }
 
 .input-box .icon {
@@ -153,8 +153,8 @@ h2 {
 }
 
 .input-check:checked~.input-box .icon {
-    color: #00f7ff;
-    filter: drop-shadow(0 0 5px #00f7ff);
+    color: #425ead;
+    filter: drop-shadow(0 0 5px #425ead);
 }
 
 .remember-forgot {
@@ -167,8 +167,8 @@ h2 {
 }
 
 .input-check:checked~.remember-forgot {
-    color: #00f7ff;
-    text-shadow: 0 0 10px #00f7ff;
+    color: #425ead;
+    text-shadow: 0 0 10px #425ead;
 }
 
 .remember-forgot label input {
@@ -178,7 +178,7 @@ h2 {
 }
 
 .input-check:checked~.remember-forgot label input {
-    accent-color: #00f7ff;
+    accent-color: #425ead;
 }
 
 .remember-forgot a {
@@ -192,7 +192,7 @@ h2 {
 }
 
 .input-check:checked~.remember-forgot a {
-    color: #00f7ff;
+    color: #425ead;
 }
 
 button {
@@ -210,8 +210,8 @@ button {
 }
 
 .input-check:checked~button {
-    background: #00f7ff;
-    box-shadow: 0 0 15px #00f7ff, 0 0 15px #00f7ff;
+    background: #425ead;
+    box-shadow: 0 0 15px #425ead, 0 0 15px #425ead;
 }
 
 .register-link {
@@ -223,8 +223,8 @@ button {
 }
 
 .input-check:checked~.register-link {
-    color: #00f7ff;
-    text-shadow: 0 0 10px #00f7ff;
+    color: #425ead;
+    text-shadow: 0 0 10px #425ead;
 }
 
 .register-link p a {
@@ -239,7 +239,7 @@ button {
 }
 
 .input-check:checked~.register-link p a {
-    color: #00f7ff;
+    color: #425ead;
 }
 
 .login-light {
@@ -249,7 +249,7 @@ button {
     transform: translateX(-50%);
     width: 500px;
     height: 10px;
-    background: #00f7ff;
+    background: #425ead;
     border-radius: 20px;
 }
 
@@ -346,10 +346,10 @@ button {
 .input-check:checked~.toggle .text.on {
     top: 76px;
     opacity: 1;
-    color: #00f7ff;
+    color: #425ead;
     text-shadow:
-        0 0 15px #00f7ff,
-        0 0 30px #00f7ff,
-        0 0 45px #00f7ff,
-        0 0 60px #00f7ff;
+        0 0 15px #425ead,
+        0 0 30px #425ead,
+        0 0 45px #425ead,
+        0 0 60px #425ead;
 }
