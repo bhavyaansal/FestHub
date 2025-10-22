@@ -45,24 +45,34 @@ body {
     animation: moveStars 200s linear infinite;
 }
 
-@keyframes moveStars {
-    from {
-        background-position: 0 0;
-    }
-
-    to {
-        background-position: 10000px 5000px;
-    }
+#nav {
+    height: 140px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-self: start;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
-#text{
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px;
+    margin-left: auto;
+}
+
+#text {
     margin-top: 70px;
     text-align: center;
     display: flex;
     overflow-x: hidden;
 }
 
-#text h1{
+#text h1 {
     height: 100%;
     font-size: 8vw;
     text-transform: uppercase;
@@ -84,14 +94,14 @@ body {
     justify-items: center;
 } */
 
-#child{
+#child {
     height: 90vh;
     width: 95%;
     margin: 120px;
-    display: flex;    
+    display: flex;
 }
 
-#child img{
+#child img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -99,12 +109,12 @@ body {
 }
 
 @media (max-width:600px) {
-    *{
+    * {
         font-family: 'futura';
     }
 
-    #text h1{
-    font-size: 6vw;
+    #text h1 {
+        font-size: 6vw;
         letter-spacing: 0px;
     }
 

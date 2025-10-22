@@ -26,8 +26,6 @@ body {
     height: 100vh;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
     color: #dbdbdbf6;
     margin: 0;
     background: linear-gradient(135deg, #0F0C29, #302B63, #24243E);
@@ -59,6 +57,33 @@ body {
     }
 }
 
+#nav {
+    height: 140px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-self: start;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px;
+    margin-left: auto;
+}
+
+#box{
+    align-self: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
 .login-box {
     position: relative;
     width: 400px;
@@ -78,10 +103,10 @@ h2 {
 }
 
 .input-check:checked~h2 {
-    color: #425ead;
+    color: #82EEFD;
     text-shadow:
-        0 0 15px #425ead,
-        0 0 30px #425ead;
+        0 0 15px #82EEFD,
+        0 0 30px #82EEFD;
 }
 
 .input-box {
@@ -101,8 +126,8 @@ h2 {
 }
 
 .input-check:checked~.input-box .input-line {
-    background: #425ead;
-    box-shadow: 0 0 10px #425ead;
+    background: #82EEFD;
+    box-shadow: 0 0 10px #82EEFD;
 }
 
 .input-box label {
@@ -122,8 +147,8 @@ h2 {
 }
 
 .input-check:checked~.input-box label {
-    color: #425ead;
-    text-shadow: 0 0 10px #425ead;
+    color: #82EEFD;
+    text-shadow: 0 0 10px #82EEFD;
 }
 
 .input-box input {
@@ -139,8 +164,8 @@ h2 {
 }
 
 .input-check:checked~.input-box input {
-    color: #425ead;
-    text-shadow: 0 0 5px #425ead;
+    color: #82EEFD;
+    text-shadow: 0 0 5px #82EEFD;
 }
 
 .input-box .icon {
@@ -153,8 +178,8 @@ h2 {
 }
 
 .input-check:checked~.input-box .icon {
-    color: #425ead;
-    filter: drop-shadow(0 0 5px #425ead);
+    color: #82EEFD;
+    filter: drop-shadow(0 0 5px #82EEFD);
 }
 
 .remember-forgot {
@@ -167,8 +192,8 @@ h2 {
 }
 
 .input-check:checked~.remember-forgot {
-    color: #425ead;
-    text-shadow: 0 0 10px #425ead;
+    color: #82EEFD;
+    text-shadow: 0 0 10px #82EEFD;
 }
 
 .remember-forgot label input {
@@ -178,7 +203,7 @@ h2 {
 }
 
 .input-check:checked~.remember-forgot label input {
-    accent-color: #425ead;
+    accent-color: #82EEFD;
 }
 
 .remember-forgot a {
@@ -192,7 +217,7 @@ h2 {
 }
 
 .input-check:checked~.remember-forgot a {
-    color: #425ead;
+    color: #82EEFD;
 }
 
 button {
@@ -210,8 +235,8 @@ button {
 }
 
 .input-check:checked~button {
-    background: #425ead;
-    box-shadow: 0 0 15px #425ead, 0 0 15px #425ead;
+    background: #82EEFD;
+    box-shadow: 0 0 15px #82EEFD, 0 0 15px #82EEFD;
 }
 
 .register-link {
@@ -223,8 +248,8 @@ button {
 }
 
 .input-check:checked~.register-link {
-    color: #425ead;
-    text-shadow: 0 0 10px #425ead;
+    color: #82EEFD;
+    text-shadow: 0 0 10px #82EEFD;
 }
 
 .register-link p a {
@@ -239,7 +264,7 @@ button {
 }
 
 .input-check:checked~.register-link p a {
-    color: #425ead;
+    color: #82EEFD;
 }
 
 .login-light {
@@ -249,7 +274,7 @@ button {
     transform: translateX(-50%);
     width: 500px;
     height: 10px;
-    background: #425ead;
+    background: #82EEFD;
     border-radius: 20px;
 }
 
@@ -346,10 +371,10 @@ button {
 .input-check:checked~.toggle .text.on {
     top: 76px;
     opacity: 1;
-    color: #425ead;
+    color: #82EEFD;
     text-shadow:
-        0 0 15px #425ead,
-        0 0 30px #425ead,
-        0 0 45px #425ead,
-        0 0 60px #425ead;
+        0 0 15px #82EEFD,
+        0 0 30px #82EEFD,
+        0 0 45px #82EEFD,
+        0 0 60px #82EEFD;
 }

@@ -100,10 +100,18 @@ body {
     border-radius: 50px;
 }
 
-#nav-pt2 #icons i {
+#nav-pt2 #icons a i {
     font-size: 14px;
     font-weight: 100;
     margin: 0 10px;
+}
+
+#nav-pt2 #icons a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0px 8px;
 }
 
 *::selection {
@@ -351,10 +359,10 @@ h2 {
 }
 
 @media (max-width:600px) {
-    *{
+    * {
         font-family: 'futura';
     }
-    
+
     #nav {
         height: 20px;
         width: 100%;
