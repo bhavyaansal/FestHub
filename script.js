@@ -1,24 +1,24 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#main'),
-    smooth: true
-});
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('#main'),
+//     smooth: true
+// });
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
-function navbarAnimation() {
-    gsap.to("#nav-pt2 #links", {
-        transform: 'translateY(-100%)',
-        opacity: 0,
-        scrollTrigger: {
-            trigger: "#page1",
-            scroller: "#main",
-            start: "top 0",
-            end: "top -5%",
-            scrub: true
-        }
-    })
-}
-navbarAnimation()
+// function navbarAnimation() {
+//     gsap.to("#nav-pt2 #links", {
+//         transform: 'translateY(-100%)',
+//         opacity: 0,
+//         scrollTrigger: {
+//             trigger: "#page1",
+//             scroller: "#main",
+//             start: "top 0",
+//             end: "top -5%",
+//             scrub: true
+//         }
+//     })
+// }
+// navbarAnimation()
 
 function videoconAnimation() {
     var vdcon = document.querySelector("#video-container")
