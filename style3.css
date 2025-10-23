@@ -60,7 +60,7 @@ a {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 35px;
     padding: 5px;
     margin-left: auto;
 }
@@ -82,17 +82,6 @@ a {
     margin-bottom: 20px;
     color: #dbdbdbf6;
 }
-
-/* #parent{
-    white-space: nowrap;
-    overflow-x: hidden;
-    overflow-y: auto;
-    justify-items: center;
-}
-
-#parent #child{
-    justify-items: center;
-} */
 
 #child {
     height: 90vh;
