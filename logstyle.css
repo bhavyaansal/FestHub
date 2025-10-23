@@ -384,6 +384,7 @@ button {
         width: 300px;
         height: 400px;
         padding: 18px;
+        margin-left: 28px;
     }
 
     .input-box {
