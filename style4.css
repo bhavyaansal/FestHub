@@ -179,6 +179,7 @@ textarea {
 
 /* ====== FOOTER ====== */
 .footer {
+    height: 100px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -195,17 +196,17 @@ textarea {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 20px 40px;
-    gap: 40px;
+    padding: 15px 30px;
+    gap: 35px;
     box-sizing: border-box;
 }
 
 .footer-container h2 {
-    font-size: 1.2rem;
+    font-size: 0.75rem;
     margin-bottom: 10px;
     color: #e2e8f0;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
 }
 
 .footer-container ul {
@@ -222,7 +223,7 @@ textarea {
     color: #cbd5e1;
     text-decoration: none;
     transition: color 0.3s;
-    font-size: 0.95rem;
+    font-size: 0.8rem;
 }
 
 .footer-container a:hover {
@@ -252,7 +253,7 @@ textarea {
     background: #302B63;
     text-align: center;
     padding: 10px;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     color: #b4c0d1e7;
     border-top: 1px solid #334155;
 }
@@ -274,7 +275,10 @@ textarea {
 
 @media screen and (max-width: 880px) {
     .contact-box {
+        height: 100px;
+        width: 80%;
         grid-template-columns: 1fr;
+        font-size: 0.45rem;
     }
 
     .left {
@@ -293,9 +297,14 @@ textarea {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        font-size: 0.45rem;
+        font-size: 0.35rem;
         padding: 5px;
         gap: 6px;
+    }
+
+    .footer-container h2 {
+        font-size: 0.40rem;
+        margin-bottom: 8px;
     }
 
     .social-links {
