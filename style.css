@@ -351,7 +351,7 @@ h2 {
 #footerbar {
     font-size: 30px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 [data-scroll-container] {
@@ -442,14 +442,14 @@ h2 {
     }
 
     #video-container #play {
-        padding: 9.5vw 7.2vw;
+        /* padding: 9.5vw 7.2vw;
         font-size: 4.5vw;
         top: 50%;
         left: 50%;
-        position: absolute;
-        opacity: 1;
-        scale: 1;
-        transform: translate(-50%, -50%);
+        position: absolute; */
+        opacity: 0;
+        /* scale: 1;
+        transform: translate(-50%, -50%); */
     }
 
     h2 {
@@ -559,6 +559,7 @@ h2 {
     #footerbar {
         font-size: 20px;
         text-align: center;
+        background-color: none;
         margin-bottom: 10px;
     }
 }
