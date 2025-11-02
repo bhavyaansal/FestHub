@@ -1,34 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FestHub-Registration</title>
-    <link rel="stylesheet" href="rstyle.css">
+    <title>Fest Hub Registration</title>
+    <style>
+        body {
+            font-family: 'futura';
+            background-color: #001f3f;
+            /* Dark Blue */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background-color: #003366;
+            /* Slightly lighter blue */
+            padding: 30px;
+            border-radius: 15px;
+            width: 400px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: #00bfff;
+            /* Bright Blue */
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            color: #add8e6;
+        }
+
+        input,
+        select,
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            border-radius: 8px;
+            border: none;
+            outline: none;
+        }
+
+        input,
+        select {
+            background-color: #e6f2ff;
+        }
+
+        button {
+            background-color: #00bfff;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #0099cc;
+        }
+
+        .login-link {
+            text-align: center;
+            margin-top: 15px;
+            color: #00bfff;
+            font-size: 14px;
+        }
+
+        .login-link a {
+            color: #00bfff;
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
-    <div class="container">
-    <h2>Registration Form</h2>
-    <form>
-        <label for="fullname">Full Name</label>
-        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <div class="form-container">
+        <h2>Fest Hub Registration</h2>
+        <form id="registrationForm" onsubmit="register(event)">
 
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
 
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <label for="roll">Roll Number:</label>
+            <input type="text" id="roll" placeholder="Enter your roll number" required>
 
-        <label for="confirm-password">Confirm Password</label>
-        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+            <label for="institute">Institute Name:</label>
+            <select id="institute" required>
+                <option value="" disabled selected>Select your institute</option>
+                <option>MM College of Dental Science & Research (Mullana)</option>
+                <option>MM College of Nursing (Mullana)</option>
+                <option>MM College of Pharmacy (Mullana)</option>
+                <option>MM Department of Agriculture (Mullana)</option>
+                <option>MM Department of Law (Mullana)</option>
+                <option>MM Department of Media & Creative Arts (Mullana)</option>
+                <option>MM Engineering College (Mullana)</option>
+                <option>MM Institute of Computer Technology & Business Management (HM) (Mullana)</option>
+                <option>MM Institute of Computer Technology & Business Management (MCA) (Mullana)</option>
+                <option>MM Institute of Management (Mullana)</option>
+                <option>MM Institute of Medical Sciences & Research (Mullana)</option>
+                <option>MM Institute of Nursing (Mullana)</option>
+                <option>MM Institute of Physiotherapy & Rehabilitation (Mullana)</option>
+            </select>
 
-        <button type="submit">Register</button>
+            <label for="gender">Gender:</label>
+            <select id="gender" required>
+                <option value="" disabled selected>Select gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
 
-        <p>Already have an account? <a href="login.html">Login here</a></p>
-    </form>
-</div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+
+            <label for="event">Select Event:</label>
+            <select id="event" required>
+                <option value="" disabled selected>Choose an event</option>
+                <option>Dance</option>
+                <option>Music</option>
+                <option>Drama</option>
+                <option>Art</option>
+                <option>Sports</option>
+                <option>Quiz</option>
+                <option>Debate</option>
+            </select>
+
+            <button type="submit">Register</button>
+
+            <div class="login-link">
+                Already have an account? <a href="login.html">Login here</a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function register(event) {
+            event.preventDefault(); // Prevent page reload
+            alert("Registration Successful! 🎉 Thank you for registering for Fest Hub.");
+            document.getElementById("registrationForm").reset();
+        }
+    </script>
+
 </body>
+
 </html>

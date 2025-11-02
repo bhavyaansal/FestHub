@@ -277,7 +277,7 @@ h2 {
     width: 57%;
     border-radius: 30px;
     position: absolute;
-    background-color: #413b88b3;
+    background-color:#75747432;
     overflow: hidden;
     z-index: 3;
     text-align: center;
@@ -292,12 +292,12 @@ h2 {
 
 #highlight .elem .dets h3 {
     font-size: 18px;
-    color: #ebebebd9;
+    color: #dbdbdbf6;
 }
 
 #highlight .elem .dets p {
     font-size: 14px;
-    color: #f1f1f1d2;
+    color: #dbdbdbf6;
 }
 
 #page3 {
@@ -313,7 +313,7 @@ h2 {
     justify-content: flex-start;
     gap: 60px;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: auto;
 }
 
 #photoctr {
@@ -352,7 +352,7 @@ h2 {
 #footerbar {
     font-size: 30px;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 [data-scroll-container] {
@@ -507,11 +507,11 @@ h2 {
 
     #highlight .elem .dets {
         height: 65px;
-        width: 67%;
+        width: 47%;
         border-radius: 20px;
         /* padding-bottom: px; */
         position: absolute;
-        background-color: #37467c9a;
+        background-color: #75747432;
         overflow: hidden;
         z-index: 4;
     }
@@ -524,12 +524,12 @@ h2 {
 
     #highlight .elem .dets h3 {
         font-size: 14px;
-        color: #cda4ffe4;
+        color: #ffffffe9;
     }
 
     #highlight .elem .dets p {
         font-size: 8px;
-        color: #c8a2f6ef;
+        color: #ffffffe9;
     }
 
     #photoctr {
